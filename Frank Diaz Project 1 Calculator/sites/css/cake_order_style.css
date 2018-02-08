@@ -1,0 +1,60 @@
+body {
+    background: #ffe1a7;
+}
+
+@font-face {
+    font-family: RobotoSlab-Bold;
+    src: url('../fonts/Roboto_Slab/RobotoSlab-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url('../fonts/Lato/Lato-Light.ttf');
+}
+
+.main {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background: #ffffff;
+    padding: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-family: RobotoSlab-Bold;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    color: #ec8857;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: RobotoSlab-Bold;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ec8857;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: Lato-Light;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+input {
+    font-family: Lato-Light;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+textarea {
+    width: 30%;
+    height: 100px;
+}
